@@ -34,7 +34,7 @@ div {
   height:400px;
 }
 
-.featuredshop{
+.featured{
   width:1000px;
   height:200px;
 }
@@ -45,6 +45,12 @@ div {
 
 .darkgrey{
   background:darkgrey;
+}
+
+
+.about-text{
+  width:1000px;
+  height:200px;
 }
 
 
