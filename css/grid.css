@@ -1,0 +1,32 @@
+/* grids.css */
+[class^='grid-col-'] {
+	float: left;
+	padding: 0;
+	text-align: center;
+}
+
+.grid-col-5of10, .grid-col-3of10 {
+	width: 100%;
+	background: darkgrey;
+	height: 2em;
+	margin-right: .2em;
+	margin-bottom: 1em;
+}
+
+.grid-row:after {
+	content: "placeholder";
+	display: block;
+	clear: both;
+}
+
+@media (min-width: 50em) {
+
+	.grid-col-2of10 {
+		width: 33%;
+	}
+
+.grid-col-1of4 > .nav-main-item {
+	width: 100%;
+}
+
+}
