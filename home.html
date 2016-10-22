@@ -9,6 +9,7 @@
 
 		<link rel="stylesheet" href="css/main.css"> 
 		<link rel="stylesheet" href="css/grid.css"> 
+		<link rel="stylesheet" href="css/popup.css"> 
 	</head>
 
 
@@ -17,9 +18,20 @@
 
 	<nav>
 	    <a href="myaccount.html" class="nav-main-item box-item-nav">My Account</a>
-        <a href="login.html" class="nav-main-item box-item-nav">Log In</a>
+        <a class="nav-main-item box-item-nav popup" onclick="myFunction()">Log In<span class="popuptext" id="myPopup">The log-in popup</span></a>
         <a href="mycart.html" class="nav-main-item box-item-nav">My Cart</a>
+
      </nav>
+
+
+	<script>
+		// When the user clicks on div, open the popup
+		function myFunction() {
+    	var popup = document.getElementById('myPopup');
+    	popup.classList.toggle('show');
+		}
+	</script>
+	
 
 		<h1>Site Logo</h1>
 		<h2>Home Page</h2>
