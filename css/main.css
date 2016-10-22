@@ -11,7 +11,7 @@ p {
   margin: 15px;
 } 
 
-div {
+div{
   background-color: white;
   width: 415px;
   border: 25px solid lightgrey;
@@ -23,6 +23,7 @@ div {
  nav {
   margin: 15px;
  } 
+
 
 .box{
   width:150px;
