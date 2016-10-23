@@ -77,12 +77,6 @@
 
 @media (max-width:768px){
 
-	[class*='col-'] {
-	float: left;
-	padding:0;
-	text-align: center;
-}
-
 	.col-1of10{
 		width:25%;
 	}
@@ -116,6 +110,7 @@
 		margin-top:30px;
 		height:150px;
 	}
+}
 
 
 /*Media query that applies to all pages*/
