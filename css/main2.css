@@ -43,6 +43,22 @@ p {
   color:white;
 }
 
+.cartcolumn{
+  width:100%;
+  height:300px;
+  float:left;
+  background-color:#676977;
+  color:white;
+}
+
+.subtotal{
+  width:100%;
+  height:300px;
+  float:left;
+  background-color:#676977;
+  color:white;
+}
+
 .topnavlink{
   size:4em;
   color:white;
@@ -73,20 +89,6 @@ p {
 }
 
 .featured{
-  width:1000px;
-  height:200px;
-}
-
- .grey{
-  background:lightgrey;
-}
-
-.darkgrey{
-  background:darkgrey;
-}
-
-
-.about-text{
   width:1000px;
   height:200px;
 }
