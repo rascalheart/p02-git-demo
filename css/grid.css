@@ -77,15 +77,12 @@
 
 @media (max-width:768px){
 
-	.col-1of10{
-		width:25%;
-	}
 	.home .col-2of10 {
 		width: 50%;
 		border: 2px solid white;
 	}
 
-	.home .sidespace2, .home .sidespace3, .home .sidespace4{
+	.home .sidespace3, .home .sidespace4{
 		display:none;
 	}
 
@@ -104,11 +101,33 @@
 	.home .games {
 		border: 2px solid white;
 	}
+}
 
+/*Media query for the cart page*/
 
-	.footer {
+@media (max-width:768px){
+
+	.cart .col-2of10 {
+		width: 50%;
 		margin-top:30px;
-		height:150px;
+		border:2px solid white;
+	}
+
+	.cart .col-4of10 {
+		width:100%;
+	}
+
+	.cart .sidespace3, .cart .sidespace4{
+		display:none;
+	}
+
+	.cart .subtotal2 {
+		display:none;
+	}
+
+	.cart .subtotal {
+		margin-top:60px;
+
 	}
 }
 
