@@ -61,45 +61,60 @@
 }
 
 .grid-row::after {
-
-	/*
-		We use the 'content' property to make the ::after pseudo-element active. Even though there is nothing between the quotation marks, this enables the element.
-	*/
 	content: "";
-	
-	/*
-		To allow the element to clear the floats, we have to set it to display as a block-level element.
-	*/
-	display: block;
-
-	/*
-		Finally, using the 'clear' property we can ensure that floats are cleared. This prevents elements after .grid-row from wrapping up beside elements in the row.
-	*/
-	clear: both;
-}
-
-/*.grid-col-5of13, .grid-col-3of13 {
-	width: 100%;
-	background: darkgrey;
-	height: 2em;
-	margin-right: .2em;
-	margin-bottom: 1em;
-}
-
-.grid-row:after {
-	content: "placeholder";
 	display: block;
 	clear: both;
 }
 
-@media (min-width: 50em) {
 
-	.grid-col-2of10 {
-		width: 33%;
+/*Media queries start here*/
+
+
+@media (max-width:768px){
+
+	[class*='col-'] {
+	float: left;
+	padding:0;
+	text-align: center;
+}
+	.col-1of10{
+		width:25%;
+	}
+	.col-2of10 {
+		width: 100%;
 	}
 
-.grid-col-1of4 > .nav-main-item {
-	width: 100%;
-}
+	.col-3of10 {
+		width: 100%;
+	}
 
-}*/
+	.logo {
+		height:30px;
+		padding:0;
+	}
+
+	.topnavlink{
+		float:left;
+		width:100%;
+		padding:15px 15px;
+	}
+
+	.sidespace {
+		display:none;
+	}
+
+	.gamesidenav {
+		margin-top:20px;
+	}
+
+	.itemmodule {
+		margin-top:20px;
+	}
+
+	.footer {
+		margin-top:30px;
+		height:150px;
+	}
+
+
+}
