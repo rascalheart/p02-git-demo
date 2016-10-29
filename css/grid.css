@@ -1,80 +1,141 @@
 /* grids.css */
+
+
 *, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 
 [class*='col-'] {
 	float: left;
-	padding-right:50px;
-	padding-bottom:20px;
-	text-align: center;
+	padding:1rem 1rem;
 }
 
+/*
 [class*='col-']:first-of-type {
   padding-right: 0;
 }
 
 [class*='col-']:last-of-type {
   padding-right: 0;
+  }*/
+
+
+  .col-1of9 {
+  	width: 11.11%;
+  }
+
+  .col-2of9 {
+  	width: 22.22%;
+  }
+
+  .col-3of9 {
+  	width: 33.33%;
+  }
+
+  .col-4of9 {
+  	width: 44.44%;
+  }
+
+  .col-5of9 {
+  	width: 55.55%;
+  }
+
+  .col-6of9 {
+  	width: 66.66%;
+  }
+
+  .col-7of9 {
+  	width: 77.77%;
+  }
+
+  .col-8of9 {
+  	width: 88.88%;
+  }
+
+  .col-9of9 {
+  	width: 100%;
+  }
+
+
+
+
+  
+
+
+
+
+/* old media queries ignore for now
+@media (max-width:1550px){
+
+	[class*='col-'] {
+		float: left;
+		padding:1rem 0.7rem;
+	}
+	#header {
+		padding-left:2rem;
+		padding-right:2rem;
+	}
+
+	#merchandise {
+		padding-left:2rem;
+		padding-right:2rem;
+	}
+
+	.productlisting{
+  max-width
 }
 
+@media (max-width:1450px){
 
-.col-1of10 {
-	width: 10%;
+	[class*='col-'] {
+		float: left;
+		padding:1rem 0.5rem;
+	}
+	#header {
+		padding-left:1rem;
+		padding-right:1rem;
+	}
+
+	#merchandise {
+		padding-left:1rem;
+		padding-right:1rem;
+	}
 }
 
-.col-2of10 {
-	width: 20%;
-}
+@media (max-width:1400px){
 
-.col-3of10 {
-	width: 30%;
-}
+	[class*='col-'] {
+		float: left;
+		padding:1rem 1rem;
+	}
+	#header {
+		padding-left:10rem;
+		padding-right:10rem;
+	}
 
-.col-4of10 {
-	width: 40%;
-}
+	#merchandise {
+		padding-left:10rem;
+		padding-right:10rem;
+	}
 
-.col-5of10 {
+	.col-3of9 {
 	width: 50%;
 }
-
-.col-6of10 {
-	width: 60%;
-}
-
-.col-7of10 {
-	width: 70%;
-}
-
-.col-8of10 {
-	width: 80%;
-}
-
-.col-9of10 {
-	width: 90%;
-}
-
-.col-10of10 {
-	width: 100%;
-	padding:0;
-	padding-top:60px;
-}
-
-.grid-row::after {
-	content: "";
-	display: block;
-	clear: both;
-}
+}*/
 
 
-/*Media queries start here*/
+
+
+
+
+
+
 
 /*Media query for the home page*/
-
+/*
 @media (max-width:768px){
 
 	.home .col-2of10 {
@@ -103,7 +164,7 @@
 	}
 }
 
-/*Media query for the cart page*/
+
 
 @media (max-width:768px){
 
@@ -132,7 +193,7 @@
 }
 
 
-/*Media query that applies to all pages*/
+
 
 @media (max-width:768px){
 
@@ -181,4 +242,4 @@
 	}
 
 
-}
+}*/
